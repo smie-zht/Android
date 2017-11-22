@@ -4,9 +4,4 @@ I konw!
 dev
 master
 a
-<<<<<<< HEAD
 110
-
-=======
-110
->>>>>>> fea
