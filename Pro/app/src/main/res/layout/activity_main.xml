@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="true"
+        android:queryHint="请输入搜索内容"
+        android:layout_alignParentTop="true"
+        />
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/record"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+    <ListView
+        android:id="@+id/lvGenerals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchView"
+        android:divider="#ccc"
+        android:dividerHeight="5dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jbk"
+        android:scaleType="fitXY"
+        android:layout_below="@id/searchView"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="500dp"
+        app:backgroundTintMode="src_atop"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+
+
+</RelativeLayout>

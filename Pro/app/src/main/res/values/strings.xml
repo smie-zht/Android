@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">三国字典</string>
+    <string-array name="name">
+        <item>刘备</item>
+        <item>关羽</item>
+        <item>张飞</item>
+        <item>曹操</item>
+        <item>孟获</item>
+        <item>诸葛亮</item>
+        <item>黄忠</item>
+        <item>吕布</item>
+        <item>赵云</item>
+        <item>董卓</item>
+
+    </string-array>
+
+    <string-array name="mapj">
+        <item>115.97</item>
+        <item>110.77</item>
+        <item>115.97</item>
+        <item>115.79</item>
+        <item>102.61</item>
+        <item>118.47</item>
+        <item>112.53</item>
+        <item>109.83</item>
+        <item>114.58</item>
+        <item>104.04</item>
+
+    </string-array>
+
+    <string-array name="mapw">
+        <item>39.49</item>
+        <item>35.15</item>
+        <item>39.49</item>
+        <item>33.85</item>
+        <item>24.68</item>
+        <item>35.55</item>
+        <item>32.99</item>
+        <item>40.58</item>
+        <item>38.15</item>
+        <item>34.45</item>
+
+    </string-array>
+
+    <string-array name="info">
+        <item>刘备（161 - 223），字玄德，幽州涿郡涿（今河北保定市，涿州）人。蜀汉的开国皇帝，汉景帝之子中山靖王刘胜的后代。</item>
+        <item>关羽（？ - 219），字云长，司隶河东郡解（今山西运城市临猗县西南）人。因本处势豪倚势凌人，关羽杀之而逃难江湖。闻涿县招军破贼，特来应募。与刘备、张飞桃园结义，羽居其次。</item>
+        <item>张飞（？ - 221），字益德，幽州涿郡（今河北省保定市涿州市）人。与刘备和关羽桃园结义，张飞居第三。</item>
+        <item>曹操（155 - 220），字孟德，豫州沛国谯（今安徽亳州市亳县）人。 曹操是西园八校尉之一，曾只身行刺董卓，失败后和袁绍共同联合天下诸侯讨伐董卓，后独自发展自身势力，统一了北方。</item>
+        <item>孟获（？ - ？），益州益州郡（今云南昆明市晋宁县东）人。南蛮大王。</item>
+        <item>诸葛亮（181 - 234），徐州琅邪国阳都（今山东临沂市沂南县南）人。人称卧龙先生，有经天纬地之才，鬼神不测之机。其手摇羽扇，运筹帷幄的潇洒形象，千百年来已成为人们心中“智慧”的代名词。</item>
+        <item>黄忠（？ - 220），荆州南阳郡（今河南南阳市）人。初为刘表帐下中郎将，与表侄刘磐共守长沙，后事韩玄；虽年近六旬，却有万夫不当之勇。</item>
+        <item>吕布（？ - 198），并州五原郡九原（今内蒙古包头市九原区麻池镇西北古城遗址）人。吕布是骁勇善战的汉末诸侯，虽然勇猛，但是少有计策，为人反复无常，唯利是图。</item>
+        <item>赵云（？ - 229），冀州常山国真定（今河北石家庄市正定县南）人。赵云受本郡推举，率领义从加入白马将军公孙瓒。期间结识了汉室皇亲刘备，但不久因为兄长去世而离开。赵云离开公孙瓒大约七年后，在邺城与刘备相见，从此追随刘备。</item>
+        <item>董卓（？ - 192），凉州陇西郡临洮（今甘肃定西市岷县）人。董卓一生残暴，满怀私欲和野心。他的种种倒行逆施，造成了东汉末年政权的极度混乱，给国家和社会的稳定带来了巨大的破坏。</item>
+    </string-array>
+
+    <string-array name="Natives">
+        <item>幽州涿郡涿</item>
+        <item>司隶河东郡解</item>
+        <item>幽州涿郡</item>
+        <item>豫州沛国谯</item>
+        <item>益州益州郡</item>
+        <item>徐州琅邪国阳都</item>
+        <item>荆州南阳郡</item>
+        <item>并州五原郡九原</item>
+        <item>冀州常山国真定</item>
+        <item>凉州陇西郡临洮</item>
+    </string-array>
+
+    <string-array name="force">
+        <item>蜀国</item>
+        <item>蜀国</item>
+        <item>蜀国</item>
+        <item>魏国</item>
+        <item>南蛮</item>
+        <item>蜀国</item>
+        <item>蜀国</item>
+        <item>董卓</item>
+        <item>蜀国</item>
+        <item>董卓</item>
+    </string-array>
+    <string name="title_activity_detail">detail</string>
+</resources>

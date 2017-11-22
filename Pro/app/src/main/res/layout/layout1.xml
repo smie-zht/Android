@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trim"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dip"
+        android:text="三国字典"
+        android:textColor="#303F9F"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="可以实现增删查改的操作"
+        android:ems="1"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:layout_marginTop="70dip"
+        android:layout_marginLeft="280dip"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳过引导"
+        android:textSize="20dp"
+        android:background="@drawable/button_shape"
+        android:textColor="#fff"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="120dip"
+        android:id="@+id/enter1"/>
+</LinearLayout>

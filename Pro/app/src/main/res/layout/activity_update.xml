@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.james.pro.update">
+
+    <ImageView
+        android:id="@+id/EditImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/EditName"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:hint="请输入名字"
+        app:layout_constraintLeft_toRightOf="@id/EditImg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/EditForce"
+        android:layout_width="137dp"
+        android:layout_height="58dp"
+        app:layout_constraintTop_toBottomOf="@id/EditName"
+        android:layout_margin="60dp"
+        android:hint="请输入所属势力"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/EditImg"
+        app:layout_constraintHorizontal_bias="0.625"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/EditInfo"
+        android:layout_width="340dp"
+        android:layout_height="230dp"
+        android:hint="请输入人物简介"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EditImg"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/Editsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EditInfo"
+        android:layout_margin="30dp"
+        />
+    <Button
+        android:id="@+id/Editback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EditInfo"
+        android:layout_margin="30dp"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

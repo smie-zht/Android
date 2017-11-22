@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk2"
+    tools:context="com.james.pro.HeroDetial">
+    <ImageView
+        android:id="@+id/heroImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/heroName"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            app:layout_constraintLeft_toRightOf="@id/heroImg"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFDD00"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="45sp"
+            android:background="@drawable/bnk1"
+            />
+
+        <TextView
+            android:id="@+id/heroForce"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            app:layout_constraintLeft_toRightOf="@id/heroImg"
+            app:layout_constraintTop_toBottomOf="@id/heroName"
+            android:layout_margin="20dp"
+            android:textSize="35sp"
+            android:textColor="#FF0000"/>
+
+        <Button
+            android:id="@+id/mapbnt"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/location"
+            app:layout_constraintLeft_toRightOf="@id/heroForce"
+            app:layout_constraintTop_toBottomOf="@id/heroName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/heroInfo"
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heroImg"
+            android:layout_margin="20dp"
+            android:textSize="25sp"
+            android:background="@drawable/bk3"
+            android:textColor="#FFFFFF"/>
+    <ImageView
+        android:id="@+id/imageView_animation1"
+        android:layout_width="340dp"
+        android:layout_height="230dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heroImg"
+        android:layout_margin="20dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/heroChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heroInfo"
+        android:layout_margin="30dp"
+        android:textSize="25sp"
+        android:background="@drawable/icon" />
+    <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="返回"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/heroInfo"
+    android:layout_margin="30dp"
+        android:textSize="25sp"
+        android:background="@drawable/icon"/>
+    <Button
+        android:id="@+id/heroDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        app:layout_constraintLeft_toRightOf="@id/heroChange"
+        app:layout_constraintTop_toBottomOf="@id/heroInfo"
+        app:layout_constraintRight_toLeftOf="@id/back"
+        android:layout_margin="30dp"
+        android:textSize="25sp"
+        android:background="@drawable/icon" />
+
+
+
+</android.support.constraint.ConstraintLayout>

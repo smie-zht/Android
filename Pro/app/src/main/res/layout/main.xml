@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/start">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="遇见三国"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_marginTop="60dip"
+            android:layout_marginLeft="30dip"/>
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO！"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dip"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="该客户端为三国爱好者提供，开发者是我"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dip"
+        android:layout_marginBottom="15dp"
+        android:textSize="15dp"
+        android:textColor="#000"/>"
+
+
+
+</RelativeLayout>
